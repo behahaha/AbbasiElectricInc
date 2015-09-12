@@ -1,0 +1,382 @@
+ @charset "utf-8";
+body    {
+	margin: 0px;
+	color: #151515;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #EFF5F8;
+	vertical-align: baseline;
+	background-repeat: no-repeat;
+	background-image: url(../../../../Documents/Work%20/Abbassi%20Electrical/backgrounds/grey_wash_wall/grey_wash_wall.png);
+}
+#background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+	background-repeat: no-repeat;
+}
+#wrapper {
+	background-color: #FFFFFF;
+	width: 100%;
+	min-width: 740px;
+	max-width: 875px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	-webkit-box-shadow: 0px 0px 40px;
+	box-shadow: 0px 0px 40px;
+	border-collapse: separate;
+	border-radius: 8px;
+}
+#hero {
+    position: relative;
+    clear: left;
+}
+#hero article {
+    width: 36%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 40px;
+    right: 43px;
+    background-color: #FAA356;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+#hero h2 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: -7px;
+}
+
+#hero img {
+	max-width: 100%;
+	width: 100%;
+	height: 550px;
+}
+h1, h2 {
+	color: #082A48;
+	font-style: normal;
+	font-weight: 400;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	text-align: center;
+}
+h1 {
+	font-size: 72px;
+	text-align: left;
+	text-transform: uppercase;
+	margin-top: 14px;
+	margin-bottom: 23px;
+	font-size: 68px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	padding-top: 26px;
+	position: static;
+	font-family: Baskerville, arapey;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	margin-left: 16px;
+	margin-right: 0px;
+}
+#main {
+	width: 93%;
+	margin-left: 2%;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	float: none;
+	text-align: center;
+	display: inline-block;
+}
+#sidebar {
+	width: 93%;
+	margin-left: 4%;
+	float: left;
+	display: inline;
+	clear: right;
+	font-weight: lighter;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: large;
+	text-align: center;
+}
+footer {
+	clear: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2%;
+	background-color: #67717A;
+	color: #FFFFFF;
+	border-radius: 0px 0px 8px 8px;
+}
+footer .copy {
+	width: 45%;
+	display: inline-block;
+}
+footer img {
+	display: inline-block;
+	margin-top: -1px;
+	margin-bottom: -15px;
+	margin-left: 377px;
+}
+figure {
+    width: 420px;
+}
+figure img {
+    padding: 10px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 15px #999999;
+    box-shadow: 1px 1px 15px #999999;
+}
+
+figcaption {
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+}
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+.floatleft {
+    margin-right: 10px;
+    float: left;
+}
+.floatright {
+    margin-left: 10px;
+    float: right;
+}
+a {
+	font-family: arapey;
+	font-weight: 400;
+	font-style: normal;
+	font-size: large;
+	text-decoration: none;
+}
+a:link {
+	color: #082A48;
+}
+a:visited {
+	color: #082A48;
+}
+a:hover, a:active, a:focus {
+	color: #082A48;
+	text-decoration: underline;
+	width: auto;
+}
+#mainnav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+#mainnav a {
+	width: 25%;
+	display: block;
+	float: left;
+	background-color: #4D4D4D;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+#mainnav a:hover, #mainnav a:active, #mainnav a:focus {
+	text-decoration: none;
+	background-color: #67717A;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: large;
+}
+
+article, aside, figure, footer, header, nav {
+	display: block;
+	-webkit-box-shadow: inset 0 0px 0px #DEE0E6;
+	box-shadow: inset 0 0px 0px #DEE0E6;
+	margin-left: 0px;
+	padding-right: 0px;
+	text-align: left;
+}
+.number {
+	font-size: 12px;
+	text-align: left;
+	text-transform: uppercase;
+	margin-top: -45px;
+	margin-bottom: 6px;
+	font-size: 25px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	padding-top: 0px;
+	position: static;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	margin-left: 350px;
+	margin-right: 0px;
+	text-align: left;
+}
+.logo {
+	margin-top: -25px;
+	margin-bottom: 23px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	padding-top: 26px;
+	position: static;
+	margin-left: 187px;
+	margin-right: 0px;
+}
+/*Form Extras*/
+form    {
+	background: -webkit-gradient(linear, bottom, left 175px, 	from(#CCCCCC), to(#EEEEEE));
+	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+	margin-top: 2px;
+	margin-right: 36px;
+	margin-left: 14px;
+	margin-bottom: 36px;
+	position: relative;
+	width: 475px;
+	height: 634px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 21px;
+	font-style: normal;
+	line-height: 24px;
+	font-weight: normal;
+	color: #4D4D4D;
+	text-decoration: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 8px;
+	padding-top: 17px;
+	padding-right: 17px;
+	padding-left: 17px;
+	padding-bottom: 17px;
+	border-style: hidden;
+	border-width: 1px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	display: block;
+	float: left;
+	text-align: left;
+}
+input    {
+	width: 375px;
+	display: block;
+	border: 1px solid #999;
+	height: 25px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	bottom: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 28px;
+}
+textarea#feedback {
+	width: 375px;
+	height: 150px;
+	display: block;
+	margin-bottom: 25px;
+}
+input.message {
+	display:block;
+}
+input#button {
+	width:100px;
+	position:block;
+	right:20px;
+	bottom:20px;
+	background:#67717A;
+	color:#fff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif, Tahoma, Geneva, sans-serif;
+	height:30px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 0px;
+	border: 1p solid #999;
+}
+input#button:hover {
+	background: #fff;
+	color: #4D4D4D;
+}
+textarea:focus, input:focus {
+	border: 1px solid #09C;
+}
+select {
+	width: 375px;
+	display: block;
+	border: 1px solid #999;
+	height: 25px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	bottom: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 28px;
+	margin-top: 5px;
+}
+.serv {
+	width: 28%;
+	display: inline;
+	float: left;
+	font-weight: lighter;
+	opacity: 1;
+	z-index: 0;
+	margin-bottom: 0px;
+	margin-left: 38px;
+	color: #082A48;
+}
+.serv h3 {
+	font-weight: lighter;
+	font-size: 23px;
+}
+#main ul {
+	align-content: flex-start;
+	display: inline-block;
+	z-index: auto;
+	margin-top: -17px;
+	margin-left: -34px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 16px;
+	text-align: left;
+	line-height: 40px;
+}
+.clear {
+	align-content: center;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 13px;
+}
+
+.owner {
+	float: left;
+	width: 350px;
+	height: 216px;
+	padding-bottom: 8px;
+	margin-left: -157px;
+}
+.work {
+	float: right;
+	width: 350px;
+	height: 216px;
+	padding-bottom: 8px;
+	margin-right: -391px;
+	margin-bottom: 15px;
+}
+.main_pic {
+	width: 400px;
+	height: 300px;
+	padding-bottom: 8px;
+}
+
+.h3 {
+	font-weight: lighter;
+	margin-bottom: 30px;
+}
